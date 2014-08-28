@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head><meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+    <title>GB Garden by dyarob</title>
+  <style>
+  <!--body {
+    margin:0px;
+    padding:0px;
+    text-align:center;
+  }-->
+
+  canvas{
+    outline:0;
+    border:1px solid #000;
+	margin-top: .5cm;
+    margin-left: auto;
+	
+    image-rendering: optimizeSpeed;             // Older versions of FF
+    image-rendering: -moz-crisp-edges;          // FF 6.0+
+    image-rendering: -webkit-optimize-contrast; // Webkit
+                                                //  (Safari now, Chrome soon)
+    image-rendering: -o-crisp-edges;            // OS X & Windows Opera (12.02+)
+    image-rendering: optimize-contrast;         // Possible future browsers.
+    -ms-interpolation-mode: nearest-neighbor;   // IE
+	
+	imageSmoothingEnabled: false;
+}
+  </style>
+  
+  </head>
+  <body>
+	
+	<h1>GB Garden
+	</h1>
+	
+    <canvas id='c'></canvas>
+    <script src="game.js"></script>
+	
+	<p><br/>
+	<b>Controls: (QWERTY)<br/></b>
+	Directional cross: WASD or Arrows<br/>
+	A and B: , and . or numpad 0 and numpad .<br/>
+	<br/>
+	If it doesn't work well in Chrome, try it in Firefox ;)
+	</p>
+	
+  </body>
+</html>
